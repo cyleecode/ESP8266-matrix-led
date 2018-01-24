@@ -6,7 +6,7 @@
 #include <ArduinoJson.h>          //https://github.com/bblanchon/ArduinoJson
 #include "LedControlMS.h"         //https://github.com/shaai/Arduino_LED_matrix_sketch
 #define NBR_MTX 8 //Number of matrix led module
-#define CHAR_WIDTH 6 //CHARACTER SPACE WHEN DISPLAY
+#define CHAR_WIDTH 6 //CHARACTER PIXEL WIDTH ON DISPLAY
 #define CS D8 //MATRIX PIN//
 #define DIN D7 //MATRIX PIN//
 #define CLK D5 //MATRIX PIN//
