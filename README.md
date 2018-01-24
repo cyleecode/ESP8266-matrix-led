@@ -7,4 +7,5 @@ A text display device build from NodeMCU Wifi module. The text can be changed re
 * 5 jumper wires
 * 8 Dot Matrix MAX7219 Module Led Display
 * 5V phone adapter / power bank
-	
+
+![alt text](https://github.com/Refreshdom/Wifi_Display/blob/assets/matrix%20led%20display.jpg)
