@@ -4,8 +4,8 @@
 #include <ESP8266WebServer.h>     //Local WebServer used to serve the configuration portal
 #include <WiFiManager.h>          //https://github.com/tzapu/WiFiManager WiFi Configuration Magic
 #include <ArduinoJson.h>          //https://github.com/bblanchon/ArduinoJson
-#include "LedControlMS.h"         //Matrix LED library
-#define NBR_MTX 8
+#include "LedControlMS.h"         //https://github.com/shaai/Arduino_LED_matrix_sketch
+#define NBR_MTX 8 //Number of matrix led module
 #define CHAR_WIDTH 6 //CHARACTER SPACE WHEN DISPLAY
 #define CS D8 //MATRIX PIN//
 #define DIN D7 //MATRIX PIN//
