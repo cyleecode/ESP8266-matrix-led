@@ -59,7 +59,7 @@ void drawled(byte *pattern , String sentence , int maxlength) {
         pRow = pRow - 1;
         break;
     }
-    int pos = lc.getCharArrayPosition(sentence[a]); //search pixel pattern of current character
+    int pos = lc.getCharArrayPosition(sentence[a]); //search for bitmap position for current character
     if (pos == 13) {  //13 for character not found
       pattern[j] = alphabetBitmap[10][0];
     }
