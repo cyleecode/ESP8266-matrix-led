@@ -59,8 +59,8 @@ void drawled(byte *pattern , String sentence , int maxlength) {
         pRow = pRow - 1;
         break;
     }
-    int pos = lc.getCharArrayPosition(sentence[a]); //set pixel pattern of current position
-    if (pos == 13) {  //13 is the last column to draw pixel
+    int pos = lc.getCharArrayPosition(sentence[a]); //search pixel pattern of current character
+    if (pos == 13) {  //13 for character not found
       pattern[j] = alphabetBitmap[10][0];
     }
     else {
